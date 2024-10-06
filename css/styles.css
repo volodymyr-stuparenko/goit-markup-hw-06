@@ -1,6 +1,3 @@
-.hidden {
-    display: none;
-}
 
 /* reset */
 
@@ -1398,7 +1395,11 @@ p {
     }
 
     .review-form-custom-checkbox {
-        flex-shrink: inherit;
+        flex-shrink: 0;
+    }
+
+    .review-form-policy-link {
+        line-height: 1.33;
     }
 }
 
